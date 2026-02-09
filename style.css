@@ -1,0 +1,24 @@
+/*************** Reset *********************/
+* {
+  margin: 3px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.grid_1-1-1 {
+  display: grid;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  .grid_1-1-1 {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    gap: 20px;
+  }
+}
